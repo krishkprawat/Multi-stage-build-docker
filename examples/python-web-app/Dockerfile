@@ -19,7 +19,7 @@ RUN apt-get update && \
  # this is distroless image of python.
 FROM gcr.io/distroless/python3  
 
-COPY --from=Build devops /app /app
+COPY --from=Build  /app /app
 ENTRYPOINT ["python3"]
 CMD ["manage.py", "runserver", "0.0.0.0:8000"]
 
