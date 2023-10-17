@@ -1,5 +1,8 @@
 ![git](https://github.com/krishkprawat/Multi-stage-build-docker/assets/47602022/51afc476-0adc-40d8-8886-c6dbaba109c6)
 
+in above image - green tick marked image is created with multi stage- with mimimal size
+and red check mark image is build without distroless image/ multi stage docker which is bigger in size.
+============================================================================================================
 # Multi-stage-build-docker
 this repo is for learn about multi stage docker stages
  real advantage of multi stage docker build and distro less images can be understand with a drastic decrease in the Image size.
